@@ -6,7 +6,7 @@ Notas sobre uso de IA em Engenharia de Software, em um estilo mais opinativo e s
 
 Com o avanço dos modelos de linguagem e dos agentes de codificação,
 tornou-se comum ouvir que **código morreu**. Consequentemente, não
-precisaremos mais escrever e le5 código. É comum ouvir também que vai
+precisaremos mais escrever nem ler código. É comum ouvir também que vai
 ocorrer com código o mesmo que aconteceu com assembly. 
 
 Mas essa comparação com assembly não é boa, na nossa visão. Claro, é verdade que
