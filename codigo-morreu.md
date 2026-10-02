@@ -5,13 +5,13 @@ tornou-se comum ouvir que **código morreu**. Consequentemente, não
 precisaremos mais escrever nem ler código. É comum ouvir também que vai
 ocorrer com código o mesmo que aconteceu com assembly. 
 
-Mas essa comparação com assembly não é boa, na nossa visão. Claro,
+Mas essa comparação não é boa, na nossa visão. Claro,
 não programamos mais em assembly, há muito tempo. Mas isso aconteceu
 porque assembly foi substituído por linguagens de programação que
 sempre tiveram uma semântica definida. Essa característica permitiu
 o desenvolvimento de compiladores que traduzem
 deterministicamente programas escritos nessas linguagens para o nível
-mais baixo. 
+mais baixo.
 
 Porém, essa capacidade de tradução entre níveis de
 abstração é perdida quando se usa modelos de IA no desenvolvimento
@@ -22,15 +22,15 @@ especificar software. Para complicar, LLMs são ferramentas
 não-determinísticas, ou seja, sujeitas a erros de tradução, os quais
 não acontecem com compiladores.
 
-Por isso, se quisermos decretar a morte de código, precisamos eleger um
+Por isso, se quisermos decretar a morte de código, precisamos antes eleger um
 substituto, assim como ocorreu com assembly. E, conforme afirmamos,
-esse substituto, pelo menos de uma forma ubíqua, não devem ser textos
+esse substituto, pelo menos de uma forma mais geral, não devem ser textos
 em linguagem natural.
 
 Concluindo, e assumindo que será difícil eleger um substituto universal para
 código, devemos caminhar para uma realidade de desenvolvimento de software fragmentada:
 
-- Com um pouco mais de documentação textual, mas sempre ainda parcial.
+- Com mais de documentação textual, mas sempre ainda parcial.
 
 - Com muito mais código gerado por LLMs, obviamente.
 
