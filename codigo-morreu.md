@@ -5,7 +5,9 @@ tornou-se comum ouvir que **código morreu**. Consequentemente, não
 precisaremos mais escrever ou ler código. 
 
 É comum ouvir também que vai ocorrer com código o mesmo que aconteceu
-com assembly. Mas essa comparação não é boa, na nossa visão. 
+com assembly. 
+
+Mas essa comparação não é boa, na nossa visão. 
 
 Claro, não programamos
 mais em assembly. Mas isso aconteceu porque assembly foi substituído
