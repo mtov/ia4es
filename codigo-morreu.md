@@ -26,14 +26,12 @@ flowchart LR
 Porém, essa capacidade de tradução entre níveis de abstração é perdida
 quando se usa modelos de IA no desenvolvimento de software. 
 
-No caso de
-LLMs, o nível mais alto são os prompts, escritos em linguagem natural
-(isto é, português, inglês, etc).
-E historicamente sabemos que linguagem natural é uma notação verbosa,
-incompleta e ambígua para especificar software. Para complicar, LLMs
-são ferramentas não-determinísticas, ou seja, sujeitas a erros de
-tradução, os quais não acontecem com compiladores, conforme figura
-abaixo:
+No caso de LLMs, o nível mais alto são os prompts, escritos em linguagem
+natural(isto é, português, inglês, etc.). E historicamente sabemos que
+linguagem natural é uma notação verbosa, incompleta e ambígua para
+especificar software. Para complicar, LLMs são ferramentas
+não-determinísticas, ou seja, sujeitas a erros de tradução, os quais
+não acontecem com compiladores, conforme a figura abaixo:
 
 ```mermaid
 flowchart LR
@@ -49,7 +47,7 @@ eleger um substituto, assim como ocorreu com assembly. E, conforme
 afirmamos, esse substituto, pelo menos de uma forma mais geral, não
 serão apenas textos em linguagem natural.
 
-Se a gente concordar que será difícil eleger um substituto universal para
+Se concordarmos que será difícil eleger um substituto universal para
 código, é razoável imaginar uma realidade de desenvolvimento de
 software fragmentada, conforme ilustrado a seguir. Provavelmente,
 teremos mais documentação textual, mas sempre parcial. E muito mais código 
@@ -73,6 +71,6 @@ fácil de ser gerado. Mas, em um número ainda importante de cenários e
 funcionalidades, esse código ainda deverá ser revisado, entendido e 
 refatorado, antes de entrar em produção.
 
-Consequentemente, uma nova responsabilidade de engenheiros de software será
-tomar decisões sobre o que vale a pena documentar e 
-sobre o nível de revisão necessário em cada parte de um sistema.
+Consequentemente, uma nova responsabilidade de engenheiros de software
+será tomar decisões sobre o que vale a pena documentar e sobre o nível
+de revisão necessário em cada parte de um sistema.
