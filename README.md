@@ -4,8 +4,6 @@ Notas sobre uso de IA em Engenharia de Software, em um estilo mais opinativo e s
 
 ## Código Morreu?
 
-# Código Morreu?
-
 Com o avanço dos modelos de linguagem e dos agentes de codificação,
 tornou-se comum ouvir que **código morreu**. Consequentemente, não
 precisaremos mais escrever e le5 código. É comum ouvir também que vai
