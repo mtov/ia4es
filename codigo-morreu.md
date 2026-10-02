@@ -57,15 +57,17 @@ humana e detalhada, para as partes mais sensíveis e com mais risco.
 
 ```mermaid
 flowchart LR
-    A["Desenvolvimento<br/>com IA"] --> B["Mais documentação<br/>textual e parcial"]
-    A --> C["Mais código<br/>gerado automaticamente"]
-    A --> D["Diferentes níveis<br/>de revisão"]
+    A["Desenvolvimento de Software<br/>com IA"]
 
-    D --> E["Nenhuma revisão <br/>(risco muito baixo)"]
-    D --> F["Revisão rápida<br/> (médio risco)"]
-    D --> G["Revisão detalhada<br/> (alto risco)"]
+    A --> B["Mais documentação<br/>textual e parcial"]
+    A --> C["Mais código<br/>gerado automaticamente"]
+    A --> D["Revisão conforme<br/>o nível de risco"]
+
+    D --> E["Risco baixo<br/>→ nenhuma revisão"]
+    D --> F["Risco médio<br/>→ revisão rápida"]
+    D --> G["Risco alto<br/>→ revisão detalhada"]
 ```
- 
+
 Portanto, talvez seja melhor dizer que **código ficou mais barato** e
 fácil de ser gerado. Mas, em um número ainda importante de cenários e
 funcionalidades, esse código ainda deverá ser revisado, entendido e 
