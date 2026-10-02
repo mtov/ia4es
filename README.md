@@ -9,8 +9,8 @@ tornou-se comum ouvir que **código morreu**. Consequentemente, não
 precisaremos mais escrever nem ler código. É comum ouvir também que vai
 ocorrer com código o mesmo que aconteceu com assembly. 
 
-Mas essa comparação com assembly não é boa, na nossa visão. Claro, é verdade que
-não programamos mais em assembly, há muito tempo. Mas isso somente aconteceu
+Mas essa comparação com assembly não é boa, na nossa visão. Claro,
+não programamos mais em assembly, há muito tempo. Mas isso aconteceu
 porque assembly foi substituído por linguagens de programação que
 sempre tiveram uma semântica definida. Essa característica permitiu
 o desenvolvimento de compiladores que traduzem
@@ -20,7 +20,7 @@ mais baixo.
 Porém, essa capacidade de tradução entre níveis de
 abstração é perdida quando se usa modelos de IA no desenvolvimento
 de software. No caso de LLMs, o nível mais alto são os prompts,
-escritos em linguagem natural. E historicamente sabemos que uma
+escritos em linguagem natural. E historicamente sabemos que
 linguagem natural é uma notação verbosa, incompleta e ambígua para
 especificar software. Para complicar, LLMs são ferramentas
 não-determinísticas, ou seja, sujeitas a erros de tradução, os quais
@@ -28,16 +28,15 @@ não acontecem com compiladores.
 
 Por isso, se quisermos decretar a morte de código, precisamos eleger um
 substituto, assim como ocorreu com assembly. E, conforme afirmamos,
-esse substituto, pelo menos de uma forma ubíqua, não serão textos
+esse substituto, pelo menos de uma forma ubíqua, não devem ser textos
 em linguagem natural.
 
-Concluindo, considerando que será difícil eleger um substituto universal para
-código, devemos caminhar para uma realidade de
-desenvolvimento de software fragmentada:
+Concluindo, e assumindo que será difícil eleger um substituto universal para
+código, devemos caminhar para uma realidade de desenvolvimento de software fragmentada:
 
 - Com um pouco mais de documentação textual, mas sempre ainda parcial.
 
-- Claro, com muito mais código gerado por LLMs.
+- Com muito mais código gerado por LLMs, obviamente.
 
 - Com níveis de revisão de código, desde nenhuma revisão (para código
   menos crítico) até uma revisão humana e detalhada, para as partes mais
@@ -45,5 +44,5 @@ desenvolvimento de software fragmentada:
 
 Uma nova responsabilidade de engenheiros de software será então 
 saber "dosar" cada um dos itens acima. Isto é, tomar as decisões sobre 
-o que vale documentar e qual o nível de revisão será preciso em cada 
+o que vale documentar e sobre o nível de revisão demandado em cada 
 parte de um sistema.
