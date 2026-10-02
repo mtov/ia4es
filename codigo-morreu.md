@@ -25,7 +25,8 @@ flowchart LR
 
 Porém, essa capacidade de tradução entre níveis de abstração é perdida
 quando se usa modelos de IA no desenvolvimento de software. No caso de
-LLMs, o nível mais alto são os prompts, escritos em linguagem natural.
+LLMs, o nível mais alto são os prompts, escritos em linguagem natural
+(isto é, português, inglês, etc).
 E historicamente sabemos que linguagem natural é uma notação verbosa,
 incompleta e ambígua para especificar software. Para complicar, LLMs
 são ferramentas não-determinísticas, ou seja, sujeitas a erros de
