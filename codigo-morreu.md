@@ -2,10 +2,8 @@
 
 Com o avanço dos modelos de linguagem e dos agentes de codificação,
 tornou-se comum ouvir que **código morreu**. Consequentemente, não
-precisaremos mais escrever ou ler código. 
-
-É comum ouvir também que vai ocorrer com código o mesmo que aconteceu
-com assembly. 
+precisaremos mais escrever ou ler código. É comum ouvir também que 
+vai ocorrer com código o mesmo que aconteceu com assembly. 
 
 Mas essa comparação não é boa, na nossa visão. 
 
