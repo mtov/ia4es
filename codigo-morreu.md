@@ -24,14 +24,16 @@ flowchart LR
 ```
 
 Porém, essa capacidade de tradução entre níveis de abstração é perdida
-quando se usa modelos de IA no desenvolvimento de software. No caso de
+quando se usa modelos de IA no desenvolvimento de software. 
+
+No caso de
 LLMs, o nível mais alto são os prompts, escritos em linguagem natural
 (isto é, português, inglês, etc).
 E historicamente sabemos que linguagem natural é uma notação verbosa,
 incompleta e ambígua para especificar software. Para complicar, LLMs
 são ferramentas não-determinísticas, ou seja, sujeitas a erros de
-tradução, os quais não acontecem com compiladores.
-
+tradução, os quais não acontecem com compiladores, conforme figura
+abaixo:
 
 ```mermaid
 flowchart LR
@@ -47,18 +49,18 @@ eleger um substituto, assim como ocorreu com assembly. E, conforme
 afirmamos, esse substituto, pelo menos de uma forma mais geral, não
 serão apenas textos em linguagem natural.
 
-Se concordarmos que será difícil eleger um substituto universal para
+Se a gente concordar que será difícil eleger um substituto universal para
 código, é razoável imaginar uma realidade de desenvolvimento de
 software fragmentada, conforme ilustrado a seguir. Provavelmente,
-teremos mais documentação textual, mas sempre parcial. Muito mais código 
-gerado por LLMs, obviamente. Mas, com níveis de revisão de código, 
+teremos mais documentação textual, mas sempre parcial. E muito mais código 
+gerado por LLMs, obviamente. E, por fim, teremos níveis de revisão de código, 
 desde nenhuma revisão (para código menos crítico) até uma revisão 
 humana e detalhada, para as partes mais sensíveis e com mais risco.
 
 ```mermaid
 flowchart LR
     A["Desenvolvimento<br/>com IA"] --> B["Mais documentação<br/>textual e parcial"]
-    A --> C["Mais código<br/>gerado por LLMs"]
+    A --> C["Mais código<br/>gerado automaticamente"]
     A --> D["Diferentes níveis<br/>de revisão"]
 
     D --> E["Nenhuma revisão <br/>(risco muito baixo)"]
@@ -67,10 +69,10 @@ flowchart LR
 ```
  
 Portanto, talvez seja melhor dizer que **código ficou mais barato** e
-fácil de ser gerado. Porém, em um número ainda importante de cenários e
-funcionalidades, ele ainda deverá ser revisado, entendido e refatorado,
-antes de entrar em produção.
+fácil de ser gerado. Mas, em um número ainda importante de cenários e
+funcionalidades, esse código ainda deverá ser revisado, entendido e 
+refatorado, antes de entrar em produção.
 
-Consequentemente, uma nova responsabilidade de engenheiros de software será 
-"dosar" os itens acima. Isto é, tomar decisões sobre o que vale a pena documentar e 
+Consequentemente, uma nova responsabilidade de engenheiros de software será
+tomar decisões sobre o que vale a pena documentar e 
 sobre o nível de revisão necessário em cada parte de um sistema.
