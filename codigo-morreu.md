@@ -24,7 +24,7 @@ flowchart LR
 ```
 
 Porém, essa capacidade de tradução entre níveis de abstração é perdida
-quando se usa modelos de IA no desenvolvimento de software. 
+quando usamos modelos de IA no desenvolvimento de software. 
 
 No caso de LLMs, o nível mais alto são os prompts, escritos em linguagem
 natural (isto é, português, inglês, etc.). E historicamente sabemos que
