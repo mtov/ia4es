@@ -70,9 +70,9 @@ flowchart LR
 ```
 
 Portanto, talvez seja mais adequado dizer que **código ficou mais
-barato** e fácil de ser gerado. Mas, em um número relevante de cenários
-e funcionalidades, esse código ainda terá que ser revisado, entendido e
-refatorado, antes de entrar em produção.
+barato** de ser gerado. Mas, em um número relevante de cenários
+e funcionalidades, ele ainda terá que ser revisado, entendido e
+largamente refatorado, antes de entrar em produção.
 
 Consequentemente, uma nova responsabilidade de engenheiros de software
 será decidir sobre o que vale a pena documentar e sobre o nível
