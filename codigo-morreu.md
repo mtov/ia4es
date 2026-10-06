@@ -83,17 +83,15 @@ de revisão necessário em cada parte de um sistema.
 Uma outra consideração importante, após a geração e revisão, é sobre a
 manutenção do código gerado por IA. Sabemos que no caso de software,
 mudanças constituem a regra, o que torna a fase de manutenção e
-evolução mais importante do que a fase de geração inicial.
+evolução tão importante quanto a fase de geração inicial.
 
 Porém, no caso de manutenção de um código gerado por IA (e que não foi
 revisado por humanos), as dúvidas são ainda 
 maiores: vamos conseguir manter esse código também por IA? Por exemplo,
-vamos conseguir delegar a correção de bugs, refatorações,
+vamos conseguir delegar para a IA a correção de bugs, refatorações,
 atualizações de dependências, etc? 
 
-Porém, uma resposta mais segura para essa pergunta ainda deve 
+Uma resposta mais segura para essa pergunta ainda deve 
 demorar alguns anos, que é o período necessário para os
 sistemas gerados por IA passarem por um número importante de
 manutenções.
-
-
